@@ -1,0 +1,59 @@
+ <html>
+    <head>
+    <meta charset="utf-8">
+    <title>The YieldBook</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="css/app.css"></link>
+    </head>
+    <body>
+      <div class="main-wrapper">
+        <div class="table-container">
+          <img src="img/yield-book-logo.jpg" class="logo"></img>
+          <table id="ticker-table">
+            <thead>
+              <tr>
+                <th scope="col">Tracker-ID</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3" class="tracker-grandTotal">Total</td>
+                <td class="tracker-price"  id="tracker-grand-total"></td>
+                <td><input type="button" value="Save" id="tracker-save"></input></td>
+              </tr>
+              <tr>
+                <td> 
+                  <input type="text" placeholder="trackerid" id="new-trackerid"></input>
+                  <input type="button" value="gen" class="small-button" id="gen-button"></input>
+                </td>
+                <td> <input type="text" placeholder="quantity" id="new-qty"></input></td>
+                <td> <input type="text" placeholder="price" id="new-price"></input></td>
+                <td colspan="2" class="add-wrapper"><input class="full-button" type="button" value="Add" id="add-button"></input> </td>
+              </tr>
+              
+            </tfoot>
+          </table>
+      </div>
+    </div>
+    </body>
+<!--
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.poshytip.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-editable.min.js"></script>
+    <script type="text/javascript" src="js/tableService.js"></script>
+    <script type="text/javascript" src="js/model.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+-->
+    <script type="text/javascript" src="js/alljs.min.js"></script>
+  </html>
